@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "image-proxy",
+  "version": "1.0.0",
+  "description": "A simple serverless image proxy designed for Cloudflare Workers",
+  "main": "dist/worker.js",
+  "scripts": {
+    "test": "prettier --write '**/*.{js,css,json,md}'; webpack --progress; ./scripts/open-preview < dist/worker.js",
+    "format": "prettier --write '**/*.{js,css,json,md}'",
+    "build": "webpack --progress",
+    "preview": "./scripts/open-preview < dist/worker.js"
+  },
+  "author": "Jayson Fong <contact@jaysonfong.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
