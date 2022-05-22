@@ -8,4 +8,5 @@ Any search parameters besides `proxy-fetch-token` are forwarded.
 
 TODO:
 
-- Implemenent `proxy-fetch-token` verification
+- Implemenent `proxy-fetch-token` verification (and configurable secret)
+- Add constraints via environmental variables (size, timeout)
